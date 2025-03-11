@@ -7,4 +7,7 @@ date -r 1710154200   # macOS
 3. See process running on port:
 sudo lsof -i :5001
 
+4. Run a python code in the background:
+nohup python3 app.py > output.log 2>&1 &
+
 
