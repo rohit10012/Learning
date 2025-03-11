@@ -1,0 +1,10 @@
+1. Convert current time to epoch: date +%s
+
+2. Convert epoch back to human-readable time: 
+date -d @1710154200  # Linux
+date -r 1710154200   # macOS
+
+3. See process running on port:
+sudo lsof -i :5001
+
+
